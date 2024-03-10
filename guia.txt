@@ -8,27 +8,40 @@ Requisito: Tener git instalado
 
 2) Desde un terminal en vs code:
 
-    *) git init
+    a) git init
         Nota: Crear un repositorio de Git vacio localmente
               Se crea el directorio oculto ".git"
 
-    3) git add .
+    b) git add .
         Este comando se utiliza para agregar archivos al área de
         preparación (staging area) antes de realizar una confirmación (commit).
+        Modifica el directorio .git/objects
 
-    4) 
+    c) Ejecutar los comandos:
+            git config --global user.email "you@example.com"
+            git config --global user.name "UserName"
+        Nota: Estos comandos sirven para conectar Git a tu usuario de github
 
-    5)
+    d) git commit -m "Primer commit"
+        Nota: Este comando se utiliza para confirmar los cambios
+        realizados en los archivos agregados al área de preparación
 
-    6)
+    5) git branch -M main
+        Nota: Crea una rama (branch) en el repositorio 
 
-    7)
+    6) git remote add origin https://github.com/UserName/htmlCssJsBasico.git
+        Nota: Asocia esta rama con el repositorio remoto de github:
+        https://github.com/UserName/htmlCssJsBasico.git
+
+    7) git push -u origin main
+        Nota: Este comando se utiliza para enviar los cambios confirmados
+        al repositorio remoto (https://github.com/UserName/htmlCssJsBasico.git). 
+        En otras palabra sube el sitio
+
+        Nota: En el caso de linux se va a pedir un token que fue generado desde
+        github desde la opcion: Settings -> 
+              
 
 
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/expdeybi/htmlCssJsBasico.git
 git push -u origin main
