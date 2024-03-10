@@ -26,14 +26,14 @@ Requisito: Tener git instalado
         Nota: Este comando se utiliza para confirmar los cambios
         realizados en los archivos agregados al área de preparación
 
-    5) git branch -M main
+    e) git branch -M main
         Nota: Crea una rama (branch) en el repositorio 
 
-    6) git remote add origin https://github.com/UserName/htmlCssJsBasico.git
+    f) git remote add origin https://github.com/UserName/htmlCssJsBasico.git
         Nota: Asocia esta rama con el repositorio remoto de github:
         https://github.com/UserName/htmlCssJsBasico.git
 
-    7) git push -u origin main
+    g) git push -u origin main
         Nota: Este comando se utiliza para enviar los cambios confirmados
         al repositorio remoto (https://github.com/UserName/htmlCssJsBasico.git). 
         En otras palabra sube el sitio
@@ -52,4 +52,16 @@ git add .
 git commit -m "2do commit"
 
 git push -u origin main
+
+
+Configurar GitHub Pages para desplegar la pagina
+------------------------------------------------
+
+    1) Setting -> y el la sección Code and automation ->Pages
+    2) En la sección Buid and deployment en el botón main seleccionar la
+       rama "main" que fue la que colocamos en el paso "2.e".
+    3) Despues seleccionamos en el siguiente botón /docs lo cambiamos a root 
+       y le damos al botosn Save
+
+    Debe salir un mensaje en la parte superior Github Pages source saved.
 
