@@ -39,9 +39,17 @@ Requisito: Tener git instalado
         En otras palabra sube el sitio
 
         Nota: En el caso de linux se va a pedir un token que fue generado desde
-        github desde la opcion: Settings -> 
+        github desde la opcion: Settings -> Developer Setting -> Personal access tokens 
+        Luego seleccionar classic token y seleccionar todos los checkboxes
+        del formulario y presionar el boton "Generar new token"
               
 
+Para actualizar la rama actual con archivos modificados en la misma rama y repositorio
+---------------------------------------------------------------------------------------
 
+git add .
+
+git commit -m "2do commit"
 
 git push -u origin main
+
