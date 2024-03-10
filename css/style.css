@@ -1,0 +1,15 @@
+.textEs {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.textEn {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border: solid 2px green;
+    cursor: pointer;
+}
