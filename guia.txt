@@ -65,3 +65,6 @@ Configurar GitHub Pages para desplegar la pagina
 
     Debe salir un mensaje en la parte superior Github Pages source saved.
 
+    Luego se aparecera un enlace asi: https://UserName.github.io/htmlCssJsBasico/
+    que es la direccion desde donde la pagina web sera visualizada desde github
+
